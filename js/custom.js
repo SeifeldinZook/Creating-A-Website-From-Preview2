@@ -10,11 +10,11 @@ $(function () {
         
         mySlider = $('.bxslider');
     
-    myHeader.height($(window).height());
+    myHeader.height($(window).height()); // adjust the header height to window
     
-    $(window).resize(function () {
+    $(window).resize(function () { // adjust the header height to window after scrolling
        
-        myHeader.height($(window).height());
+        myHeader.height($(window).height()); 
         
         // Adjust Bxslider List Item Center
         
